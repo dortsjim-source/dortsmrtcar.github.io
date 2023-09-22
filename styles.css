@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+  }
+  
+  .banner, .banner-2, .banner-3, .banner-4 ,.banner-5,.banner-6{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .banner {
+    background-image: url(https://taipeidortsbest.firebaseapp.com/dortsbestdown/startbootstrap-creative-gh-pages/assets/img/portfolio/fullsize/234.jpg);
+    min-height: 100%;
+  }
+  
+  .banner-2 {
+    background-image: url(https://live.staticflickr.com/65535/53203288215_3938152046_h.jpg);
+    min-height: 100%;
+  }
+  
+  .banner-3 {
+    background-image: url(https://live.staticflickr.com/65535/53203223530_81f5f94bea_h.jpg);
+    min-height: 100%;
+  }
+  
+  .banner-4 {
+    background-image: url(https://live.staticflickr.com/65535/53202898456_321baa4bb7_k.jpg);
+    min-height: 100%;
+  }
+  
+  .banner-5 {
+    background-image: url(https://live.staticflickr.com/65535/53204771851_2f1ba4b9b3_k.jpg);
+    min-height: 100%;
+  }
+
+  .banner-6 {
+    background-image: url(https://live.staticflickr.com/65535/53204771851_2f1ba4b9b3_k.jpg);
+    min-height: 100%;
+  }
+
+  .border {
+    position: absolute;
+    top: 45%;
+    width: 95%;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 20px;
+  }
+  
+  .banner-text { 
+    padding: 20px;
+    background-color:black;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .section {
+    text-align: center;
+    padding: 50px 60px;
+  }
+  
+  footer {
+    padding: 45px;
+    background-color: #F5F5F5;
+    font-size: 18px;
+    font-family: 'Roboto', sans serif;
+    font-weight: bold;
+    color: #757575;
+    text-align: center;
+  }
+  
+  @media(max-width:568px) {
+    .banner, .banner-2, .banner-3, .banner-4 {
+    background-attachment: scroll;
+    }
+  }
